@@ -1,5 +1,5 @@
 Summary:	xprop application
-Summary(pl.UTF-8):   Aplikacja xprop
+Summary(pl.UTF-8):	Aplikacja xprop
 Name:		xorg-app-xprop
 Version:	1.0.2
 Release:	1
