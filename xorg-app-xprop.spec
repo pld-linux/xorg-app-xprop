@@ -1,12 +1,12 @@
 Summary:	xprop application
 Summary(pl.UTF-8):	Aplikacja xprop
 Name:		xorg-app-xprop
-Version:	1.0.2
+Version:	1.0.3
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xprop-%{version}.tar.bz2
-# Source0-md5:	5b6f02a3b1cda0cadc35f84814fe53d4
+# Source0-md5:	e7b16eeb4bab974e3592d62f415aa6a5
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
