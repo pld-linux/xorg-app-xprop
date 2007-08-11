@@ -1,5 +1,5 @@
-Summary:	xprop application
-Summary(pl.UTF-8):	Aplikacja xprop
+Summary:	xprop application - property displayer for X
+Summary(pl.UTF-8):	Aplikacja xprop do wyświetlania właściwości dla X
 Name:		xorg-app-xprop
 Version:	1.0.3
 Release:	1
@@ -13,14 +13,22 @@ BuildRequires:	automake
 BuildRequires:	pkgconfig >= 1:0.19
 # just xmuu
 BuildRequires:	xorg-lib-libXmu-devel
-BuildRequires:	xorg-util-util-macros >= 0.99.2
+BuildRequires:	xorg-util-util-macros >= 1.1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-xprop application.
+The xprop utility is for displaying window and font properties in an X
+server. One window or font is selected using the command line
+arguments or possibly in the case of a window, by clicking on the
+desired window. A list of properties is then given, possibly with
+formatting information.
 
 %description -l pl.UTF-8
-Aplikacja xprop.
+Narzędzie xprop służy do wyświetlania właściwości okien in fontów w
+serwerze X. Można wybrać jedno okno lub font przy użyciu argumentów
+linii poleceń lub, w przypadku okna, klikając na nie. Następnie
+podawana jest lista właściwości, w miarę możliwości wraz z
+informacjami o formacie.
 
 %prep
 %setup -q -n xprop-%{version}
