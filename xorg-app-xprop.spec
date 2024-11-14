@@ -1,12 +1,12 @@
 Summary:	xprop application - property displayer for X
 Summary(pl.UTF-8):	Aplikacja xprop do wyświetlania właściwości dla X
 Name:		xorg-app-xprop
-Version:	1.2.7
+Version:	1.2.8
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	https://xorg.freedesktop.org/releases/individual/app/xprop-%{version}.tar.xz
-# Source0-md5:	d050642a667b518cb3429273a59fa36d
+# Source0-md5:	5ef4784b406d11bed0fdf07cc6fba16c
 URL:		https://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
